@@ -1,0 +1,5 @@
+1. tags básicas para fazer o hello world(e suas regras de fechamento), sem incluir titulo e o charset para utf8
+depois colocar o titulo e charset..
+depois os headings e o style.
+2.links, e imagens. e o inicio da formatação do layate com div, header,footer,section, aside,article.
+3.paragrafos, quebras,e simbolos especiais. 
