@@ -1,4 +1,4 @@
-@@charset "UTF-8";
+@charset "UTF-8";
 
 body{
 	background-color: #dddddd;
@@ -96,26 +96,65 @@ header img#imagem-top{
 	width: auto;
 	height: auto;
 	position: absolute;
-	top: 60px;
-	left: 1200px;
-	opacity: .7;
+	top: 40px;
+	left: 1150px;
 }
 
+header#cabecalho{
+ border-bottom: 1px #606060 solid;
+ height: 150px;
+ background: url("../_imagens/logotipo-rift.png") no-repeat 0px 70px;
+ margin-bottom: 0px;
+ }
+
+header#cabecalho h1{
+	font-family: Arial, sans-serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+	font-family: Arial, sans-serif;
+	color: #888888;
+	font-size: 15pt;
+	padding: 0px;
+	margin-top: 0px;
+}
 
 aside{
-
+	display: block;
+	width: 500px;
+	float: right;
 }
 
 section{
-
+	display: block;
+	width: 600px;
+	height: 200px;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
 }
 
 article{
-
+	display: block;
+	width: 600px;
+	float:left;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+	padding-bottom: 15px;
 }
 
 footer{
-	text-align: center;
+	display: block;
+	clear:both;
 	background-color: white;
+	border-top: 1px solid #606060;
+	text-align: center;
+}
+address#rodape p{
+	text-align: center;
 	color: red;
 }
