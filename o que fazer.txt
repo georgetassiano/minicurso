@@ -1,5 +1,14 @@
-1. tags básicas para fazer o hello world(e suas regras de fechamento), sem incluir titulo e o charset para utf8
-depois colocar o titulo e charset..
-depois os headings e o style.
-2.links, e imagens. e o inicio da formatação do layate com div, header,footer,section, aside,article.
-3.paragrafos, quebras,e simbolos especiais. 
+1.fazendo o hello world: tags(marca) básicas(falar sobre as tags e seus fechamentos), o atributo lang no html e sua importancia na seo para buscas, distinção entre head(comportamental e configuravel) e body(parte visivel do site), escrever o olá, mundo!.. vai dar erro por causa do meta, definir o meta como utf4,depois colocar um titulo, e começar a usar os headings, h1 a h6. usar o style para mudar a cor dos headings...depois colocar o titulo e charset..e mostrar a herança de formatação mostrando outro h1 formatado.  e dar uma sombra com o text-shadow: lateral, vertical,  espalhamento e cor.depois os headings e o style.
+
+2.começar a produzir o site do minicurso colocando a estrutura html básica, agora colocando também os outros atributos de meta no código como keywords, description e author. e dar um exemplo de meta com o http-equiv="refresh" content="30".
+após fazer a divisão da pagina com a tag div compondo todo o corpo do site. e coolocar os headings nos titulos do site.titulos conjuntos você coloca como <hgroup>. inserir imagem do cabeçalho da página e usar a o atributo alt.e usando a tag header de cabeçalho bem como as de footer, aside,article, section.  
+
+3.paragrafos, quebras com &shy e <br> e <wbr> e espaçamento com &nbsp e comentarios com <!-- -->,e simbolos especiais.copy, tm, lt,gt,le,ge, reg,sum,times,infin,radic. 
+
+4.formatação de texto, negrito, italico, strong e em para enfases.não existe mais o <u> e o <s>(pela <del>), usar a tag span para formatar pequenos textos, e usar o style text-decoration para underline ou usar o <ins> com underline.. ver o style para o font-weight:bold,bolder,normal.(de 100 a 900).<mark>, <sub> <sup>. alinhamento com text-align: justify, e text-indent: 50px).e depois colocar o style para o header. codigo em linguagem c, com <code> e o <pre>
+
+5.style cores, cores de fundo usando primeiro com os nomes red,blue, green. cores de letra, mostrar com codigos rgb usando o hexadecimal, gimp e mostrar a palheta de cores dele, depois com o rgb()(até 255.). depois colocar como background uma imagem.depois o rgba. depois a hsl() e depois a hsla()
+
+6.colocar a outra imagem no site, e dimensionar ela para um formato legal, pelo gimp.photoshop salvar para web.atenção para a extensão do tipo de arquivo. 600x300.colocar a imagem dentro das tags figure e uma descrição com figcaption, oculus rift uma nova maneira de ver o mundo.
+
+7.formatação de imagens, passar a usar o css external, colocar o @charset "UTF-8";e inserir a tag link no header.comentario /* */, colocar uma class para figure.no css colocar uma borda branca com boder 8xpx solid white, e na img dentro do figure colocar widht 100% e height: 100%. e colocar uma sombra na borda com o box-shadow. tudo que for figcaption   ter uma posição absoluta e o top: 0px;e um background-color: rgba(0,0,0,.4) e a letra na cor branca e a widht 100% e height 100%. e um padding de 10px;e um border-size=border-box. e uma opacidade de 0 para nao ficar em cima da imagem. e ai depois pega a função hover para do figure para o figcaption com uma opacidade de 1. adicionar um transition para opacity 1s;e mostrar que se colocar somente o figure na outra imagem nao vai funcionar pois ela nao pertence a mesma classe.
