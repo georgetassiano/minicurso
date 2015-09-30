@@ -13,4 +13,13 @@ após fazer a divisão da pagina com a tag div compondo todo o corpo do site. e co
 
 7.formatação de imagens, passar a usar o css external, colocar o @charset "UTF-8";e inserir a tag link no header.comentario /* */, colocar uma class para figure.no css colocar uma borda branca com boder 8xpx solid white, e na img dentro do figure colocar widht 100% e height: 100%. e colocar uma sombra na borda com o box-shadow. tudo que for figcaption   ter uma posição absoluta e o top: 0px;e um background-color: rgba(0,0,0,.4) e a letra na cor branca e a widht 100% e height 100%. e um padding de 10px;e um border-size=border-box. e uma opacidade de 0 para nao ficar em cima da imagem. e ai depois pega a função hover para do figure para o figcaption com uma opacidade de 1. adicionar um transition para opacity 1s;e mostrar que se colocar somente o figure na outra imagem nao vai funcionar pois ela nao pertence a mesma classe.
 
-8.listas em html5 ,colocar o menu através da tag nav, e transformar os itens em uma lista. nas ol, colocar os lis, e os seus types são, 1, a, A,i,I, e possui um atributo start
+8.listas em html5 ,colocar o menu através da tag nav, e transformar os itens em uma lista. nas ol, colocar os lis, e os seus types são, 1, a, A,i,I, e possui um atributo start. as listas ul, tem tres parametros start: square, circle e disc.
+
+9.ensinar sobre as tag de ancora, e colocar os links dos outros arquivos no menu, não se esquecer do atributo target
+
+10.Utilizando o TEXT-TRANSFORM com o valor UPPERCASE, alteramos todas as letras de cada item para maiúsculas, independente da maneira que foram escritas.Com a configuração DISPLAY com o valor INLINE-BLOCK, você vai conseguir alterar a posição de cada item da lista.As propriedades BACKGROUND-COLOR #ddddddd e COLOR modificam a cor do objeto.Com o PADDING 10px, vamos configurar o espaço interno de cada objeto, enquanto o MARGIN 2px vai definir o espaço externo de cada um deles.
+colocar o nav como um bloco com o dysplay block; colocar posição absoluta.
+As propriedades LEFT 900px e TOP -20px vão configurar a posição do objeto em suas grandezas em pixels para o lado esquerdo e borda superior, respectivamente.Utilizando a propriedade DISPLAY com o valor NONE, podemos esconder o h1 do menu;
+
+11.nav#menu li : hover{ backgroundcolor: #606060} e adicionar o transition no li, para o background color 1sg.usar o prefixr.com para manter a compatibilidade com antigos navegadores, e serve também para compactar outros códigos. mechendo nas ancoras do meu menu colocar a cor preta e tirar o sublinhado com o text-decoration. e colocar pra transição hover para a ancora para cor branca e colocar o sublinhado text-decoration underline.
+
