@@ -23,3 +23,17 @@ As propriedades LEFT 900px e TOP -20px vão configurar a posição do objeto em sua
 
 11.nav#menu li : hover{ backgroundcolor: #606060} e adicionar o transition no li, para o background color 1sg.usar o prefixr.com para manter a compatibilidade com antigos navegadores, e serve também para compactar outros códigos. mechendo nas ancoras do meu menu colocar a cor preta e tirar o sublinhado com o text-decoration. e colocar pra transição hover para a ancora para cor branca e colocar o sublinhado text-decoration underline.
 
+12.cuidar da div interface, delimitando a largura, widht 900px, modificar o background do body para #ddddddd, e colocar um fundo branco pra interface #fffffff e definir a margin para -20px auto 0px auto. e adicionar um box-shadow: 0px 0px 10px black(mais depois colocar o rgba(0,0,0,.5); e depois usar um padding 10px 10px 10px 10px, mas como queremos usar valores iguais, então so colocar um padding 10px. ou usar as configurações de margin ou padding especifico. depois colocar a imagem do cabeçalho no canto direito do site, colocando ela em uma posição absoluta no site, o left: 780px e o top  70px;
+
+
+13. colocar no headercabecalho colocar o border-bottom: 1px #606060 solid; height: 150px. colocar a imagem da logo do site usando o background-image: url("") no-repeat 0px 80px;depois modificar o h1 do cabeçalho para font-family Arial, sans-serif; font-size 30pt; colocar #606060, text-shadow 1px 1px 1px rgba(0,0,0,.6) padding 0px margin-bottom: 0px e o h2 para font-family Arial, sans-serif; colocar: #888888 e font-size: 15pt; padding 0px; margin-top 0px;
+
+13-fontes..colocar no css é o @font-face{ font-family: 'FonteLogo' src: url(o arquivo)} e substituir no local da fonte entre aspas simples o nome do logo. google.com/fonts ao ver isso, ver as informações pop out das fontes,verificar se há os caracteres especiais, estatisticas, previwer text..e colocar o titulo do nosso site,tintilium web para o h2, 
+
+14.colocar a section,header, um article, e um aside.configuração da section é display: block; width 520px float: left border-right 1px solid  #606060 padding-right: 15px;. colocar o aside para display:block  e width 350px; float: right; colocar o footer com clear:both; border-top: 1px solid #606060 e colocar que tudo que estiver no rodape um text-alight. e colocar o os links pro face e twitter e o tagget black.
+
+15.tabelas.. <table> <caption> para o titulo da tabela.. linhas por tr, e as celulas são td, e colocar no table boder:1px solid #606060, border-spacing: 0px, margin-left auto, margin-right auto;. e para cada td da tabela colocar border 1px solid #606060 padding: 10px text-align:center, vertical alight:middle;e mostrar o erro de colocar uma linha para a celula da direita, e usar o no td o rowspan="2", e o colspan para celulas
+
+16.criar uma class coluna da esquerda e a da direita.e as celulas da coluna esquerda color:#ffffff background-color: #606060  vertical-align: top  font-weight: bold; e as celulas da coluna da direita background-color: #cecece. para o caption color #8888888, font-size 13pt; font-weight: bolder. colocar o span dentro da data. e configurar para a span  vai ter um display:block  float: right, colocr: #000000, font-size 8pt; margin-top: 10px;
+
+17.
