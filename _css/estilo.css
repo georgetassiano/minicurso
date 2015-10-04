@@ -200,7 +200,7 @@ aside h2{
 
 }
 
-section{
+section#corpo{
 	display: block;
 	width: 500px;
 	float: left;

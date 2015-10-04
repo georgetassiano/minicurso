@@ -37,3 +37,21 @@ As propriedades LEFT 900px e TOP -20px vão configurar a posição do objeto em sua
 16.criar uma class coluna da esquerda e a da direita.e as celulas da coluna esquerda color:#ffffff background-color: #606060  vertical-align: top  font-weight: bold; e as celulas da coluna da direita background-color: #cecece. para o caption color #8888888, font-size 13pt; font-weight: bolder. colocar o span dentro da data. e configurar para a span  vai ter um display:block  float: right, colocr: #000000, font-size 8pt; margin-top: 10px;
 
 17.pro meu article h2 vamos ter  font-size 12:pt, color: #606060 background colo #dddddd, padding 5px 0px 5px 0px margin :10px; e pro meu header#cabecalho-artigo h1 vou ter font-family 'FonteLogo', sans-serif font sizi: 20pt; color: #606060 margin-bottom: 0px  margin-top:0px e para os h2 font-size 13pt colocar #cecece margin:0px; e para o h3: font-size: 12pt e color #606060, e criar uma classe direita para o outro com text-align: right; e no body colocar o font-family: Arial, sens-serif. e que todas as ancoras terão colocar: #606060 e o text-decoration: none; e no hover das ancoras colocar o text-decoration_ underline; no aside para todo h1 font-family: 'fonte-logo' fontesize: 20pt e color #606060 e para os margin-top 0px; h2 backgroundcolor #606060 font-size 13pt, color #ffffff padding 5px padding 5px; e ai diminuir no section e colocar  pra 500px; e o aside vai ter uma margin de 10px box-shadow 2px 2px 2px rggba(0,0,0,.5)
+
+
+
+18.trabalhar no documento de especificações,começando pelo html inbutido no specs que é o oculus-rift, colocar a formatação do html5 no documento, definir cada conjunto como artigo,e dentro dele colocar os h1,h2 e p, . depois colocar na formatação dos h1, font-size: 15pt;
+    color:#ffffff;
+    background-color: rgba(0,0,0,.3);
+    padding: 5px;
+    margin:0px; e depois pro h2 font-size: 13pt;
+    color: #888888;
+    margin:0px; e depois pra distanciar cada antigo..usamos na formatação dos artigos um margin-bottom de 800px; por ultimo colocamos as imagens com o atributo alt, e depois formatarmos elas com um display: block;
+    float:right;
+ e depois um    margin-left: 5px;
+
+19.começando a editar o specs html,colocar os cabeçalhos e o footer da index, nele teremos uma section com id corpo full..diferente do id de corpo da section do index,  colocar o paragrafo, e no lugar da imagem vamos colocar uma section com uma id conteudo, e nela teremos a imagem, e um iframe para a pagina oculus rift. nele teremos os atributos name como janela e id frame-spec. falar em não sobrecarregar o css do estilo da index e criar um css proprio para a pagina css. então nessa folha de estilo definimos a codificação para utf8, depois que a section conteudo terá width:1000px; margin:auto; e o iframe#frame-spec terá width: 380px; height: 280px; border: none; overflow: hidden; e o iframe#frame-spec::-webkit-scrollbar{ display:none}
+
+20.por ultimo vamos criar um map na nossa imagem,colocando um atributo nela usemap="#meumapa", e usando a tag <map name="meumapa"> criaremos areas, com shape, rect,circle,e poly, coords... href que depois de html vem #tela por exemplo e um target pra janela.
+
+21.
