@@ -7,6 +7,13 @@
 	<meta name="author" content="George Tassiano"/>
 	<title>Oculus Rift</title>
 	<link rel="stylesheet" type="text/css" href="../_css/estilo.css">
+  <script type="text/javascript">
+    function calc_total(){
+      var qtd=parseInt(document.getElementById('cQtd').value);
+      tot= qtd*1500;
+      document.getElementById('cTot').value= tot;
+    }
+  </script>
 </head>
 <body>
 	<div id="interface">
@@ -28,49 +35,69 @@
 			</nav>
 			<img id="imagem-top" src="../_imagens/imagem1_top.png">
 		</header>
-
+<section id="corpo-full">
     <article>
     <header id="cabecalho-artigo">
     <hgroup>
-      <h3>Tecnologia &nbsp;  > &nbsp;Inovações</h3>
-      <h1>Saiba tudo sobre o Oculus Rift</h1>
+      <h3>Fale Conosco &nbsp;  > &nbsp;contato</h3>
+      <h1>Formulário de Contato</h1>
       <h2>por George Tassiano</h4>
       <h3 class="direita">Atualizado em 20/<wbr>Setembro/<wbr>2015</h5>
       </hgroup>
     </header>
-Fale Conosco > Contato
-Formulário de Contato
-por George Tassiano
-Atualizado em 01/Maio/2013
+<form method="post" id="fContato" action="mail:contato@gmail.com" oninput="calc_total();">
+<fieldset id="usuario">
+<legend>Identificação do Usuário</legend>
+    <p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo"/></p>
+    <p>Senha:<input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 digitos"/></p>
+    <p>E-mail:<input type="email" name="tMail" id="cMail" size="20" maxlenght="40"</p>
+    <fieldset id="sexo">
+    <legend>Sexo</legend>
+        <input type="radio" name="tSexo" id="cMasc" checked><label for="cMasc">Masculino</label><br/>
+        <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label>
+    </fieldset>
+    <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc"></p>
+</fieldset>
+<fieldset id="endereco">
+<legend>Endereço do Usuário</legend>
+    <p>Logradouro: <input type="text" name="tRua" id="cRua" size"13" maxlength="40" placeholder="Rua, Av, Trav"</p>
+    <p>Número: <input type="number" name="tNum" value="cNum" min="0" max="99999"></p>
+    <p>Estado <select name="tEst" id="cEst">
+      <optgroup label="Região Norte">
+      <option value="PA" selected>Pará</option>
+      <option value="AM">Amazonas</option>
+    </optgroup>
+    <optgroup label="Região Nordeste">
+      <option value="MA">Maranhão</options>
+      <option value="CE">Ceará</options>
+    </optgroup>
+    </select></p>
+    <p>Cidade:<input type="text" name="tCid" id="cCid" maxlength="40"/ list="cidades"></p>
+    <datalist id="cidades">
+      <option value="Belém"></option>
+      <option value="Fortaleza"></option>
+      <option value="São Luiz"></option>
+    </datalist>
+</fieldset>
+<fieldset id="mensagem">
+<legend>Mensagem do Usuário</legend>
+<p>Grau de Urgência: Mín<input type="range" name="tUrg" name="cUrg" min="0" max="10" step="2"/>Máx</p>
+<p>Mensagem: <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui seu texto" ></textarea></p>
+</fieldset>
+<fieldset id="pedido">
+<legend>Quero um Oculus Rift</legend>
+<p><input type="checkbox" name="tPed" id="cPed" checked />Gostaria de adquirir um Oculus Rift quando disponível</p>
+<p>Cor: <input type="color" name="tCor" id="cCor" value="#000000"/></p>
+<p>Quantidade <input type="number" name="tQtd" id="cQtd" min="1" max="5"></p>
+<p>Preço Total:R$<input type="text" name="tTot" id="cTot" placeholder="total a pagar" readonly/></p>
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
+</fieldset>
 
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+<input type="submit" name="tEnviar" value="Enviar">
 
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
-
-Quero um Oculus Rift
-    Gostaria de adquirir um Oculus Rift quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
-
-
-[BOTÃO ENVIAR]
+</form>
 </article>
+</section>
 <footer>
   <address id="rodape">
     <p>&copy Copyright 2015 - by George Tassiano</p>
