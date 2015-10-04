@@ -24,7 +24,7 @@ ul#album-fotos li:hover{
 }
 
 ul#album-fotos li#foto01{
-  background-image:url("../_imagens/oculus1.jpg");
+  background-image:url("../../_imagens/oculus1.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
@@ -37,7 +37,7 @@ ul#album-fotos li#foto01:hover{
 }
 
 ul#album-fotos li#foto02{
-  background-image:url("../_imagens/oculus2.jpg");
+  background-image:url("../../_imagens/oculus2.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
@@ -50,7 +50,7 @@ ul#album-fotos li#foto02:hover{
 }
 
 ul#album-fotos li#foto03{
-  background-image:url("../_imagens/oculus3.jpg");
+  background-image:url("../../_imagens/oculus3.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
@@ -63,7 +63,7 @@ ul#album-fotos li#foto03:hover{
 }
 
 ul#album-fotos li#foto04{
-  background-image:url("../_imagens/oculus4.jpg");
+  background-image:url("../../_imagens/oculus4.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
@@ -76,7 +76,7 @@ ul#album-fotos li#foto04:hover{
 }
 
 ul#album-fotos li#foto05{
-  background-image:url("../_imagens/oculus5.jpg");
+  background-image:url("../../_imagens/oculus5.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
@@ -88,7 +88,7 @@ ul#album-fotos li#foto05:hover{
 }
 
 ul#album-fotos li#foto06{
-  background-image:url("../_imagens/oculus6.jpg");
+  background-image:url("../../_imagens/oculus6.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
